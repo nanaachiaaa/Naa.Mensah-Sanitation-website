@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CleanCity | Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="topnav">
+    <a href="index.html" class="logo">CleanCity</a>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+        <section>
+          <h2>Get in Touch</h2>
+          <address>
+            📍 <strong>Office:</strong> Trassaco Valley Estate, Trassaco, Accra<br>
+            📞 <a href="tel:+233 53 620 0964">(0) 536200964</a><br>
+            ✉️ <a href="mailto:info@cleancity.gov">nanaachiaaamankwahmensah83@gmail.com</a><br>
+            🕒 Mon–Fri: 7 AM – 6 PM<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Sat: 8 AM – 12 PM (Recycling Only)
+          </address>
+
+          <div id="map-placeholder" style="background: #eee; height: 150px; margin-top: 1rem; border-radius: 6px; display: flex; align-items: center; justify-content: center;">
+            🗺️ Google Map Embed Placeholder
+          </div>
+        </section>
+
+        <section>
+          <h2>Send a Message</h2>
+          <form action="#" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">— Select —</option>
+              <option>Missed Pickup</option>
+              <option>Bin Request/Repair</option>
+              <option>Billing Inquiry</option>
+              <option>Complaint</option>
+              <option>General Question</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Submit Request</button>
+          </form>
+        </section>
+      </div>
+
+      <section>
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>What if my bin wasn’t collected?</summary>
+          <p>Please report missed pickups within 48 hours via this form or call (555) 123-4567. We’ll dispatch a crew the same day.</p>
+        </details>
+        <details>
+          <summary>How do I request an extra bin?</summary>
+          <p>Residents may request up to 2 additional recycling or compost bins at no cost via our online portal or by calling customer service.</p>
+        </details>
+        <details>
+          <summary>Do you service apartments and condos?</summary>
+          <p>Yes! We work with property managers to customize collection for multi-family units. Contact our Commercial Team.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 CleanCity Sanitation Services. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
